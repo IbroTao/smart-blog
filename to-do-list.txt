@@ -1,0 +1,13 @@
+To Login, To Register - auth.controllers.js
+
+To updateBio, To updateProfilePicture - user.controllers.js
+
+To createPost - post.controllers.js
+
+user.routes - It contains all the routes connected with auth.controllers.js and user.controllers.js 
+post.routes - It contains all the routes connected with post.controllers.js
+
+auth.middlewares.js - It contains authorizeUser() function which is needed for us to get user, get user by its ID, update bio, update profile picture and to create post.
+
+MODELs folder - We used it to create our database
+ROUTES folder - We used to store our routes which we use to navigate to our project.
